@@ -14,7 +14,7 @@ const Footer = () => {
           Github <BsGithub />
         </a>
         <a
-          href="https://github.com/tnmyk/anomaly-detection-landing"
+          href="https://github.com/tnmyk/anomaly-landing-page"
           target="_blank"
           className="flex items-center gap-x-1"
           rel="noreferrer"
