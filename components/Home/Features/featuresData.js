@@ -11,7 +11,7 @@ const featuresData = [
   {
     icon: <AiFillCamera />,
     background: "bg-red-500",
-    title: "Surveillance",
+    title: "Plant detection",
     desc: `Spot when anomaly plant species are detected, that way a trained botanist can inspect the plant and determine if it's harmful to the park's environment.
 `,
   },
