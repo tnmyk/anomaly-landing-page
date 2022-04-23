@@ -6,13 +6,14 @@ const featuresData = [
     icon: <HiCursorClick />,
     background: "bg-green-500",
     title: "Easy UI",
-    desc: `The program has a simplistic and minimalist UI design, making it easy for the users to navigate through it and get their cubes solved.`,
+    desc: `The program has a simplistic and minimalist UI design, making it easy for the users to navigate through it and automatically recognize flower species in the park and detect invasive plant species.`,
   },
   {
     icon: <AiFillCamera />,
     background: "bg-red-500",
     title: "Surveillance",
-    desc: `Model can be deployed in continuous surveillance at crowded places or can be feeded with videos to check for mishap.`,
+    desc: `Spot when anomaly plant species are detected, that way a trained botanist can inspect the plant and determine if it's harmful to the park's environment.
+`,
   },
 
   {
