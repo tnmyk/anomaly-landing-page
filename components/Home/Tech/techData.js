@@ -1,35 +1,28 @@
 import { GrReactjs } from "react-icons/gr";
-import { HiOutlineCube } from "react-icons/hi";
-import { SiKeras, SiPython } from "react-icons/si";
-import { GiArtificialIntelligence } from "react-icons/gi";
+import { SiScikitlearn, SiNumpy, SiOpencv } from "react-icons/si";
 const techData = [
   {
-    logo: <SiPython />,
-    title: `Theano`,
-    desc: `Theano is a Python library that allows you to optimize multi-dimensional input.
-Here it will work for optimizing and skimming out the accurate information from the input videos.`,
+    logo: <SiNumpy />,
+    title: `NumPy`,
+    desc: `NumPy supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse 
+array libraries.`,
   },
   {
-    logo: <SiKeras />,
-    title: `Keras`,
-    desc: `Keras is an API designed for human beings, not machines. It follows best practices for reducing cognitive load: it offers consistent & simple APIs,
-it minimizes the number of user actions required for common use cases.`,
+    logo: <SiScikitlearn />,
+    title: `Scikit-Learn`,
+    desc: `Simple and efficient tools for predictive data analysis accessible to everybody, and reusable in various contexts built on 
+NumPy, SciPy, and matplotlib open source.`,
   },
   {
     logo: <GrReactjs />,
     title: `React.js`,
-    desc: `Downloadable application and support for the project provided online using React.js​ (Next.js) `,
+    desc: `Downloadable application and support for the project provided online using React.js​ (Next.js)`,
   },
   {
-    logo: <GiArtificialIntelligence />,
-    title: `Deep learning`,
-    desc: `Imitates from the sample videos to differentiate between normal and abnormal scenarios by dividing sample videos into 
-segments and making instances.`,
-  },
-  {
-    logo: <HiOutlineCube />,
-    title: `Matlab`,
-    desc: `Provides commands for interconnectiong different nodes of layers in neural networks of model.`,
+    logo: <SiOpencv />,
+    title: `OpenCV`,
+    desc: `OpenCV is an open-sourced library of programming functions mainly aimed at real-time computer vision. It is a great tool for image 
+processing and performing computer vision tasks like face detection, objection tracking, landmark detection`,
   },
 ];
 
